@@ -14,7 +14,12 @@ const routes = [
     path: '/about',
     name: 'about',
     component: () => import( '../views/about')
-  }
+  },
+  {
+    path: '/survey',
+    name: 'survey',
+    component: () => import( '../views/survey')
+  },
 ]
 
 const router = new VueRouter({

@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="heart survey">
       about
   </div>
 </template>
@@ -10,6 +10,8 @@ export default {
 }
 </script>
 
-<style>
-
+<style lang="less" scoped>
+.survey{
+  padding-top: 20px;
+}
 </style>

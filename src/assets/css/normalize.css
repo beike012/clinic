@@ -8,3 +8,12 @@ a{
 li{
     list-style: none;
 }
+.clearfix{
+    zoom: 1;
+}
+.clearfix::after{
+    content: "\20";
+    display: block;
+    height: 0;
+    clear: both;
+}
